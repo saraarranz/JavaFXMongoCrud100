@@ -23,6 +23,7 @@ public class HelloController {
     protected void mostrar(){
     String url="mongodb+srv://administrador:Abc123456@cluster0.1rrabkt.mongodb.net/";
         MongoClient mongoClient = MongoClients.create(url);
+        System.out.println("cambio");
         MongoDatabase database = mongoClient.getDatabase("actividad17");
         MongoCollection<Document> collection = database.getCollection("clientes");
 
