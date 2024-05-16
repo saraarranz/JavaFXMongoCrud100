@@ -28,6 +28,7 @@ public class HelloController {
 
         for (Document doc : collection.find()) {
             lv_datos.getItems().add(doc);
+
         }
     }
 }//cierra clase
